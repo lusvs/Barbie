@@ -1,3 +1,7 @@
+body{
+    background-color: white; 
+}
+
 header{
     background-color: rgb(255, 135, 155);
     color: white;
@@ -8,10 +12,6 @@ header{
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-}
-
-body{
-    background-color: white;
 }
 
 main{
@@ -43,11 +43,21 @@ nav a:hover{
     color: rgb(255, 102, 0);
 }
 
-.logo{
-    padding-left: 250px;
-    padding-top: 50px;
+/* imagem principal */
+.barbie{ 
+    text-align: center;
+} 
+
+/* imagem do meio */
+.quadrinhos{
+    text-align: center;
 }
-    
+
+.quadrinhos img{
+    margin-left: -20px;
+    padding-right: 130px;
+}
+
 h3{
     font-size: 25px;
     color: rgb(247, 89, 115);
@@ -68,20 +78,21 @@ p{
     text-indent: 10px;
 }
 
-img{
-    padding-left: 50px ;
-    margin-left: 70px;
-}
-
+/* imagem barbie cantando */
 .rock{
-    padding-left: 380px;
+    text-align: center;
 }
 
+/* imagens finais */
 .b23{
-margin-left: 180px;
-padding-bottom: 25pX;
+    text-align: center;
+    padding-bottom: 25pX;
 }
 
+.b23 img{ 
+    padding-left: 70pX;
+    padding-right: 70pX;
+}
 
 footer{
     background-color: rgb(255, 135, 155);   
